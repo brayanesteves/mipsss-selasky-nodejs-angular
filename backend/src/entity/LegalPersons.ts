@@ -2,7 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 import { MinLength, IsNotEmpty } from "class-validator";
 import * as bcrypt from 'bcryptjs';
 
-@Entity({name: "0_LglPrsns"})
+@Entity({name: "0_LglPrsns", synchronize: false})
 export class LglPrsns {
 
     @PrimaryGeneratedColumn()

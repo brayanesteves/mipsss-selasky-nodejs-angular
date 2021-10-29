@@ -5,7 +5,7 @@
    "username": "root",
    "password": "12345678",
    "database": "mipss_frwdr",
-   "synchronize": true,
+   "synchronize": false,
    "logging": false,
    "entities": [
       "src/entity/**/*.ts"

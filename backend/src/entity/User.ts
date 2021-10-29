@@ -2,7 +2,7 @@ import {Entity, PrimaryGeneratedColumn, Column, Unique, CreateDateColumn, Update
 import { MinLength, IsNotEmpty } from "class-validator";
 import * as bcrypt from 'bcryptjs';
 
-@Entity({name: "0_usrs"})
+@Entity({name: "0_usrs", synchronize: false})
 //@Unique(['Usrnm'])
 export class User {
 
